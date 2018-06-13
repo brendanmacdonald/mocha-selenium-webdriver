@@ -1,5 +1,3 @@
-var webdriver = require('selenium-webdriver');
-
 before(async () => {
   console.log('global before');
 });

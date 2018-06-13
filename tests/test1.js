@@ -1,14 +1,13 @@
-const By = require("selenium-webdriver").By;
-const expect = require('chai').expect;
-const po = require('./utils/page_objects');
-const driverActions = require('./utils/driver')
+const expect = require('chai').expect,
+    po = require('./utils/page_objects'),
+    driverActions = require('./utils/driver');
 
-let driver; 
+let driver;
 
 describe('Title', () => {
 
     before(async () => {
-       driver = driverActions.getDriver();
+        driver = driverActions.getChromeDriver();
     })
 
     beforeEach(async () => {

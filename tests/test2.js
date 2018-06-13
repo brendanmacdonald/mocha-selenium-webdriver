@@ -1,14 +1,14 @@
-const By = require("selenium-webdriver").By;
-const expect = require('chai').expect;
-const po = require('./utils/page_objects');
-const driverActions = require('./utils/driver')
+const By = require("selenium-webdriver").By,
+    expect = require('chai').expect,
+    po = require('./utils/page_objects'),
+    driverActions = require('./utils/driver');
 
-let driver; 
+let driver;
 
 describe('Adding numbers', () => {
 
     before(async () => {
-        driver = driverActions.getDriver();
+        driver = driverActions.getGalaxyS5Driver();
     })
 
     beforeEach(async () => {
