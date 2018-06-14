@@ -2,7 +2,8 @@
     "name": "mocha-selenium-webdriver",
     "version": "0.0.1",
     "scripts": {
-        "test": "mocha ./tests --timeout 10000 --reporter mochawesome"
+        "test1": "mocha ./tests/test1 --timeout 10000 --reporter mochawesome",
+        "test2": "mocha ./tests/test2 --timeout 10000 --reporter mochawesome"
     },
     "dependencies": {},
     "devDependencies": {

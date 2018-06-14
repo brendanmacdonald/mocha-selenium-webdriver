@@ -7,7 +7,7 @@ let driver;
 describe('Title', () => {
 
     before(async () => {
-        driver = driverActions.getChromeDriver();
+        driver = driverActions.getHeadlessDriver();
     })
 
     beforeEach(async () => {
