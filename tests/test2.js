@@ -1,5 +1,4 @@
 const By = require("selenium-webdriver").By,
- until = require("selenium-webdriver").until,
     expect = require('chai').expect,
     po = require('./utils/page_objects'),
     driverActions = require('./utils/driver');
