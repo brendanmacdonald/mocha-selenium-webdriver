@@ -35,6 +35,6 @@ describe('Adding numbers', () => {
             .contextClick(driver.findElement(By.id(po.totalId)))
             .perform();
 
-            await driver.sleep(2000);
+        await driver.sleep(2000);
     })
 })
