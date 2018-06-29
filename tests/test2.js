@@ -29,8 +29,12 @@ describe('Adding numbers', () => {
         })
 
         // Perform a right-click, just for fun.
-        await driver.actions({bridge: true})
+        await driver.actions({
+                bridge: true
+            })
             .contextClick(driver.findElement(By.id(po.totalId)))
             .perform();
+
+            await driver.sleep(2000);
     })
 })
