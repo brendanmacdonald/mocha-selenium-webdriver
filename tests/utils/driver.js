@@ -1,4 +1,4 @@
-const { Builder, By} = require('selenium-webdriver'),
+const { Builder } = require('selenium-webdriver'),
     chrome = require('selenium-webdriver/chrome'),
     firefox = require('selenium-webdriver/firefox');
 
